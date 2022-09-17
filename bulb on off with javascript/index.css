@@ -1,0 +1,14 @@
+ body{
+
+    background: rgba(231, 142, 9, 0.848);
+
+
+ }
+.head{
+    text-underline-offset: 10px;
+}
+.img{
+
+    margin-top: 100px;
+    border-radius: 5px;
+}

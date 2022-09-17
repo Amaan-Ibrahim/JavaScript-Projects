@@ -12,27 +12,28 @@
 </head>
 
 <body>
-    <h1 class="text-center text-uppercase mt-5 text-decoration-underline fst-italic text-light head">Bulb on/off with
+     <h1 class="text-center text-uppercase mt-5 text-decoration-underline fst-italic text-dark head">Bulb on/off with
         HTML, CSS & javascript </h1>
+   
 
     <div class="container">
         <div class="row">
             <div class="col-lg-4"></div>
             <div class="col-lg-4">
-                <img class="img-fluid img" id="image" src="./image/light-bulb off.jpg" width="200" alt="">
+                <img class="img-fluid img" id="image" src="./image/final off.jpg" width="600" alt="">
 
             </div>
             <div class="col-lg-4"></div>
 
         </div>
         <div class="row">
-            <div class="d-flex justify-content-center gap-5">
+            <div class="d-flex justify-content-center gap-5 mt-5">
                 <div>
-                    <button onclick="turnOn()" class="btn btn-outline-light">Turn on light</button>
+                    <button onclick="turnOn()" class="btn btn-outline-dark btn-lg">Turn on light</button>
 
                 </div>
                 <div>
-                    <button onclick="turnOff()" class="btn btn-outline-light">Turn off light</button>
+                    <button onclick="turnOff()" class="btn btn-outline-dark btn-lg">Turn off light</button>
 
                 </div>
             </div>
@@ -45,13 +46,14 @@
         crossorigin="anonymous"></script>
 </body>
 <script>
-    const turnOn=()=>{
-        document.getElementById("image").src="./image/light-bulb on.jpg";
+    const turnOn = () => {
+        document.getElementById("image").src = "./image/final on.jpg";
     }
-    const turnOff=()=>{
-        document.getElementById("image").src="./image/light-bulb off.jpg";
+    const turnOff = () => {
+        document.getElementById("image").src = "./image/final off.jpg";
     }
- 
+
+
 </script>
 
 </html>
